@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2023, 9:41:25 AM
+    Author     : AR WorkStation
+*/
+h1{
+   text-align: center;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px;
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #f7f7f7;
+    margin-top: 50px;
+    flex-wrap: wrap;
+  }
+  th {
+    background-color: #0047ab;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+  }
+  td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  tr:nth-child(even) {
+    background-color: #fff;
+  }
+  tr:hover {
+    background-color: #f1f1f1;
+  }
+  a {
+    color: #0047ab;
+    text-decoration: none;
+  }
+  .pass {
+    color: #0b6623;
+    font-weight: bold;
+  }
+  .fail {
+    color: #cc0000;
+    font-weight: bold;
+  }
+  .serial-number {
+    width: 50px;
+  }
+  .enroll-number {
+    width: 100px;
+  }
+  .name {
+    width: 150px;
+  }
+  .email {
+    width: 200px;
+  }
+  .physics,
+  .chemistry,
+  .math,
+  .english,
+  .hindi {
+    text-align: center;
+  }
+  .percentage {
+    font-weight: bold;
+    text-align: center;
+  }
+  .status {
+    text-align: center;
+  }
+  .edit,
+  .delete {
+    text-align: center;
+  }
+  .edit a,
+  .delete a {
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+  }
+  .edit a:hover,
+  .delete a:hover {
+    background-color: #0047ab;
+    color: #fff;
+    border-color: #0047ab;
+    cursor: pointer;
+  }
+  .edit a:focus,
+  .delete a:focus {
+    outline: none;
+  }
+  .edit a {
+    color: #0047ab;
+  }
+  .delete a {
+    color: #cc0000;
+  }
+  .edit a i,
+  .delete a i {
+    margin-right: 5px;
+  }
+
+.add{
+   text-align: right;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 8px;
+   margin-top: 10px;
+   text-transform: uppercase;
+   font-size: 15px;
+   border: 2px solid red;
+   border-radius: 20px;
+   background-color: yellow;
+}
+@media screen and (max-width: 767px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  th {
+    position: sticky;
+    top: 0;
+    background-color: #4CAF50;
+    color: white;
+  }
+}
